@@ -55,8 +55,8 @@ export const SKILLS =
         [
             { skill: "Problem-solving", percentage: "90%" },
             { skill: "Leadership", percentage: "90%" },
-            { skill: "Collaboration", percentage: "85%" },
-            { skill: "Attention to Detail", percentage: "75%" },
+            { skill: "Collaboration", percentage: "90%" },
+            { skill: "Attention to Detail", percentage: "90%" },
         ],
     },
 ];

@@ -4,6 +4,7 @@ import Hero from './components/Navbar/Hero/Hero'
 import Skills from './components/Navbar/Skills/Skills';
 import './App.css';
 import WorkExperience from './components/Navbar/WorkExperience/WorkExperience';
+import Contactme from './components/Navbar/Contactme/Contactme';
 
 const App = () => {
   return (
@@ -14,6 +15,8 @@ const App = () => {
           <Hero />
           <Skills />
           <WorkExperience />
+          <Contactme />
+          
         </div>
     </>
   )

@@ -64,34 +64,26 @@ export const SKILLS =
 
 export const WORK_EXPERIENCE = [
     {
-    title: "Senior Frontend Developer at Tech Innovators",
-    date: "January 2022 - Present",
-    responsibilities: [
-    "Led a team of frontend developers in the redesign of the company's flagship product, resulting in a 30% inc",
-    "Implemented advanced CSS animations and transitions to enhance the overall user experience.",
-    "Collaborated with UX/UI designers to translate wireframes and mockups into responsive and interactive web a",
-    "Introduced and integrated Vue.js into the tech stack, improving code maintainability and development effici",
-    ],
-    },
-    {
-    title: "Junior Web Developer at Digital Solution",
-    date: "June 2020 - December 2021",
-    responsibilities: [
-    "Developed and maintained client websites, ensuring high-quality standards and timely project delivery.",
-    "Implemented SEO best practices, leading to a 25% increase in organic search traffic for key clients.",
-    "Worked closely with the design team to create pixel-perfect, cross-browser-compatible web pages.",
-    "Conducted code reviews and mentored junior developers in adopting best coding practices.",
-    ],
-    }, 
+        title: "DotNet Developer Intern L&T Energy-Power",
+        date: "May 2024 - Junr 2024",
+        responsibilities: 
+        [
+            "Collaborated with the development team to design, develop, and test 2 innovative web applications; established performance benchmarks that enhanced application load speed, significantly improving user satisfaction and retention.",
+            "Integrated C#, ASP.NET Core, SQL, Agile, and Entity Framework accelerating project completion and enhancing code quality",
+            "Implemented 4 CRUD Operations across projects, encompassing authentication, data submission/update, and task display functionalities.",
+        ],
 
-    {
-    title: "Frontend Intern at Web Studio",
-    date: "May 2019 August 2019",
-    responsibilities: [
-    "Assisted in the development of a new e-commerce platform, contributing to the implementation of frontend fe",
-    "Conducted performance optimization tasks, resulting in a 15% improvement in page load times.",
-    "Participated in daily stand-up meetings and collaborated with senior developers to troubleshoot and resolve",
-    "Gained hands-on experience with version control systems, specifically Git, in a collaborative development e",
-    ],
     },
-    ];
+    
+    {
+        title: "Senior Collaboration member at Entrepreneurship Cell (E-Cell) VIT Vellore",
+        date: "January 2022 - July 2023",
+        responsibilities: 
+        [
+            "Fostered entrepreneurship culture in college by coordinating Podcasts (3), E-summit (1), and Guest talk shows (2).",
+            "Part of a team which made collaborations with leading entrepreneurs including Ashneer Grover and V. Krishnan etc.",
+            "Played a key role in generating and presenting innovative startup ideas, as well as prototyping and mentor more than 200+ students",
+            "Coordinating in conducted more than 25 events, engaged a community of 1000 students, footfall of 3000 participants",
+        ],
+    }, 
+];

@@ -4,6 +4,7 @@
     position: relative;
     padding-left: 3rem;
     padding-right: 3rem;
+
 }
 
 .skills-container::after,
@@ -88,9 +89,24 @@ right: -5rem;
     width: 18rem;
     height: 18 rem;
     }
+
+    .skills-container {
+        padding: 1rem;
+        margin-right: -4rem;
+        }
+}
+
+@media (max-width: 600px) {
+    .skills-container {
+    padding: 1rem;
+    margin-right: -4rem;
     }
+}
+
+
     @media (max-width: 600px) {
     .skills-container {
     padding: 1rem;
+    margin-right: -4rem;
     }
 }

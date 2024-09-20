@@ -5,6 +5,8 @@
     top: 0;
     z-index: 30;
     backdrop-filter: blur(50px);
+    /* width: 100%; */
+
 }
 
 .nav-content {
@@ -116,15 +118,40 @@
     outline: 1px solid #a993fe;
 }
 
+@media (max-width: 300px)
+{
+    .nav-wrapper{
+        background: rgba(0, 0, 0, 0.1);
+        padding: 0.5rem 0;
+        position: relative;
+        top: 0;
+        z-index: 30;
+        backdrop-filter: blur(50px);
+        width: 100%;
+    }
+    
+}
 
 @media (max-width: 425px) {
     .logo{
         width: 10rem;
         height: auto;
     }
+
+    .nav-wrapper{
+        background: rgba(0, 0, 0, 0.1);
+        padding: 0.5rem 0;
+        position: relative;
+        top: 0;
+        z-index: 30;
+        backdrop-filter: blur(50px);
+        width: 100%;
+    }
+
+    
 }
 
-@media (max-width: 831px)
+@media (max-width: 768px)
 {
     .menu-btn{
         display: block;
@@ -132,6 +159,10 @@
 
     .nav-content ul{
         display: none;
+    }
+
+    .nav-wrapper{
+        width: 100%;
     }
 }
 
